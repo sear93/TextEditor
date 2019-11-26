@@ -1,0 +1,73 @@
+body {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.main {
+  max-width: 70%;
+  margin: 120px auto 120px;
+  -webkit-box-shadow: -1px 2px 59px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 2px 59px -2px rgba(0, 0, 0, 0.75);
+}
+
+.main .container {
+  padding: 110px 90px;
+}
+
+.main .container h1 {
+  font-size: 42px;
+  font-family: 'Playfair Display', serif;
+}
+
+.main .container p {
+  line-height: 35px;
+  color: #9a9a9a;
+  font-size: 16px;
+  margin-bottom: 40px;
+  font-family: 'Playfair Display', serif;
+}
+
+.main .container span {
+  font-family: 'Lato', sans-serif;
+  font-style: italic;
+  color: #9a9a9a;
+  font-size: 22px;
+}
+
+.main .container .quote {
+  font-size: 80px;
+  font-family: 'Lato', sans-serif;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+
+.main .container .btn {
+  border: 2px solid #eaa258;
+  color: #eaa258;
+  text-decoration: none;
+  padding: 15px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  max-width: 180px;
+  display: block;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.main .container .btn:hover {
+  background-color: #eaa258;
+  color: #fff;
+}
+
+.first::first-letter {
+  font-size: 110px;
+  text-transform: uppercase;
+  padding: 0 30px 10px 0;
+  float: left;
+  color: #000;
+}
